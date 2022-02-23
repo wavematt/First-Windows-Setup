@@ -1,0 +1,2 @@
+$tempfolders = @('C:\Windows\Temp\*', 'C:\Windows\Prefetch\*', 'C:\Documents and Settings\*\Local Settings\temp\*', 'C:\Users\*\Appdata\Local\Temp\*', '$Env:TEMP\*')
+(Remove-Item $tempfolders -force -recurse) 2> $null

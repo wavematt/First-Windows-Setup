@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+ 
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main]
+"StartPage"="https://google.ca"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main]
+"Default_Page_URL"="https://google.ca"
+
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Internet Explorer\Main]
+"DisableFirstRunCustomize"=dword:00000001
